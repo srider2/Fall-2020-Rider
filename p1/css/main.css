@@ -1,0 +1,24 @@
+h1 {
+  color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: 55px;
+}
+h2 {
+  color: #7b5c52;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-size: 30px;
+}
+p {
+  color: #0f6983;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: oblique;
+  font-size: 25px;
+}
+body {
+  background-color: #e29686;
+}
