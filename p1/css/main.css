@@ -21,4 +21,20 @@ p {
 }
 body {
   background-color: #e29686;
+  margin: 50px;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: #1d5171;
+}
+a:visited {
+  color: #15b2d1;
+}
+a:hover {
+  color: whitesmoke;
+}
+a:active {
+  color: whitesmoke;
 }
