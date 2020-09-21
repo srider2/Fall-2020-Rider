@@ -1,3 +1,30 @@
+h1{
+  color: lightpink;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: 50px;
+  margin: center;
+  font-weight: lighter;
+}
 body{
+  color: whitesmoke;
+  background-color: black;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 150px;
+}
+a {
+  text-decoration: none;
+}
+a:link{
+  color: skyblue;
+}
+a:visited{
+  color: lightpink;
+}
+a:hover {
+  color: whitesmoke;
 }
