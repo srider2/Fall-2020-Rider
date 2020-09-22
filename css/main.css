@@ -19,12 +19,18 @@ body{
 a {
   text-decoration: none;
 }
-a:link{
-  color: skyblue;
-}
-a:visited{
+a:link, a:visited {
   color: lightpink;
 }
-a:hover {
+a:hover, a:active {
   color: whitesmoke;
+}
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
