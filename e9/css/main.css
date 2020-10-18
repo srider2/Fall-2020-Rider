@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 125vw;
+  margin: -100px -12.5vw;
+}
+div {
+  float: left;
+}
+.shape1{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 50px;
+
+}
+.shape2 {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  margin: 50px 150px;
+
+}
+#p2 .shape1{
+  
+}
