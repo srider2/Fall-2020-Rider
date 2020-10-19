@@ -1,4 +1,7 @@
-body {
+#home {
   background-image: url("images/shibuya.jpg");
   background-size: cover;
+}
+#about {
+  background-color: grey;
 }
