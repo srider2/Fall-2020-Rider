@@ -1,7 +1,133 @@
-#home {
-  background-image: url("images/shibuya.jpg");
-  background-size: cover;
+body{
+  margin: 0;
+  overflow-x: hidden;
 }
-#about {
-  background-color: grey;
+a:link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: lightpink;
+}
+nav {
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-family: verdana;
+  font-style: oblique;
+  text-align: center;
+  font-size: 25px;
+}
+.header {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flow-root;
+}
+.navigation {
+  background-color: red;
+  width: 100%;
+  height: 30px;
+  word-spacing: 375px;
+  text-transform: uppercase;
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+  height: 120px;
+  width: 100%;
+  display: flow-root;
+}
+
+
+
+
+.title {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/shibuya.jpg");
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center;
+  display: flow-root;
+}
+#mainhead {
+  padding: 35px 35px 50px 50px;
+  text-transform: uppercase;
+  margin-top: 248px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 40px;
+  border: 5px solid white;
+}
+#second {
+  font-size: 25px;
+}
+
+
+
+
+.overview {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/woman.jpg");
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center;
+  display: flow-root;
+}
+#pgtitle {
+  padding: 35px 35px 50px 50px;
+  text-transform: uppercase;
+  margin-top: 248px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 40px;
+  border: 5px solid white;
+}
+#content {
+  font-size: 20px;
+  color: black;
+  margin-left: 77px;
+  line-height: 14px;
+}
+#subhead {
+  font-size: 22px;
+  color: black;
+  margin-left: -8px;
+  text-transform: uppercase;
+  width: 100%
+}
+#subhead::before,
+#subhead::after {
+    display: inline-block;
+    content: "";
+    border-top: 4px solid black;
+    width: 520px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: translateY(-1rem);
+}
+.imgbox {
+  display: grid;
+  height: 100%
+}
+.temple {
+  width: 52%;
+  max-height: 100vh;
+  margin-left: 274px;
+}
+.train {
+  width: 94%;
+  max-height: 100vh;
+  margin-right: -24px;
+
 }
