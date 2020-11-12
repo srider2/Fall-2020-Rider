@@ -1,9 +1,11 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   overflow-x: hidden;
 }
 a:link {
-  font-size: 20px;
   text-decoration: none;
   color: white;
 }
@@ -14,15 +16,19 @@ a:hover {
   color: lightpink;
 }
 nav {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+h1 {
+  font-family: lucida, sans-serif;
 }
 h2 {
   color: white;
-  font-family: verdana;
-  font-style: oblique;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-style: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .header {
   background-color: black;
@@ -33,19 +39,26 @@ h2 {
 .navigation {
   background-color: red;
   width: 100%;
-  height: 30px;
+  height: 20px;
   word-spacing: 375px;
   text-transform: uppercase;
 }
 .footer {
   background-color: black;
   color: white;
+  font-family: verdana;
   font-size: 18px;
   text-align: center;
   margin-top: 0px;
-  height: 120px;
+  height: 100px;
   width: 100%;
   display: flow-root;
+}
+#tokyo {
+  margin-top: -20px;
+  margin-left: 57px;
+  font-family: verdana;
+  font-size: 25px;
 }
 
 
@@ -60,18 +73,27 @@ h2 {
   display: flow-root;
 }
 #mainhead {
-  padding: 35px 35px 50px 50px;
+  padding: 35px 35px 15px 50px;
   text-transform: uppercase;
-  margin-top: 248px;
-  margin-left: 300px;
-  margin-right: 300px;
-  font-size: 40px;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 15px;
   border: 5px solid white;
 }
-#second {
-  font-size: 25px;
+#main2 {
+  margin-top: -25px;
+  font-size: 58px;
 }
-
+#second {
+  font-size: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+#line1 {
+  margin-top: 35px;
+}
 
 
 
@@ -82,9 +104,9 @@ h2 {
   color: white;
   text-align: center;
   display: flow-root;
-}
+  }
 #pgtitle {
-  padding: 35px 35px 50px 50px;
+  padding: 45px 35px 50px 50px;
   text-transform: uppercase;
   margin-top: 248px;
   margin-left: 300px;
@@ -93,13 +115,17 @@ h2 {
   border: 5px solid white;
 }
 #content {
-  font-size: 20px;
+  font-family: verdana;
+  font-size: 18px;
   color: black;
-  margin-left: 77px;
-  line-height: 14px;
+  margin-left: 5vw;
+  width: 90vw;
+  line-height: 25px;
 }
 #subhead {
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: 22px;
+  text-align: center;
   color: black;
   margin-left: -8px;
   text-transform: uppercase;
@@ -107,27 +133,78 @@ h2 {
 }
 #subhead::before,
 #subhead::after {
-    display: inline-block;
-    content: "";
-    border-top: 4px solid black;
-    width: 520px;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    transform: translateY(-1rem);
+  display: inline-block;
+  content: "";
+  border-top: 4px solid black;
+  width: calc(50% - 151px);
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  transform: translateY(-0.5rem);
+  padding: 0 25px;
 }
 .imgbox {
   display: grid;
   height: 100%
 }
-.temple {
-  width: 52%;
-  max-height: 100vh;
-  margin-left: 274px;
+.temple, .train {
+  width: 100%;
 }
-.train {
-  width: 94%;
-  max-height: 100vh;
-  margin-right: -24px;
 
+@media only screen and (max-width: 454px) {
+  nav {
+    font-size: 12px;
+    text-align: left;
+  }
+  .footer {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    display: flow-root;
+  }
+  #content {
+    font-size: 12px;
+    margin-left: 5vw;
+    line-height: 20px;
+  }
+  #subhead {
+    font-size: 16px;
+  }
+  #subhead::before,
+  #subhead::after {
+    border-top: 3px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    transform: translateY(-0.1rem);
+  }
+  .overview {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/woman.jpg");
+    background-size: cover;
+    }
+  #pgtitle {
+    padding: 20px 20px 20px 20px;
+    margin-top: 240px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 35px;
+    border: 4px solid white;
+  }
+  #mainhead {
+    padding: 15px 15px 15px 15px;
+    margin-top: 240px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12px;
+    border: 4px solid white;
+  }
+  #main2 {
+    margin-top: -20px;
+    font-size: 48px;
+  }
+  #second {
+    font-size: 14px;
+    margin-top: 5px;
+  }
 }
