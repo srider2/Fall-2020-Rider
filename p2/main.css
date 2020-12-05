@@ -153,8 +153,15 @@ h2 {
 
 @media only screen and (max-width: 454px) {
   nav {
-    font-size: 12px;
-    text-align: left;
+    font-size: 14px;
+    margin-left: 0;
+    line-height: 25px;
+  }
+  .navigation {
+    background-color: red;
+    width: 15%;
+    height: 80px;
+    margin-top: -80px;
   }
   .footer {
     font-size: 13px;
@@ -179,8 +186,19 @@ h2 {
     margin-right: 30px;
     transform: translateY(-0.1rem);
   }
+  .title {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/shibuya.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flow-root;
+  }
   .overview {
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/woman.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/woman.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     }
   #pgtitle {
